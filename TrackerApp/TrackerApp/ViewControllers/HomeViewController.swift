@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let savedJobs = loadJobs() {
-            loadSampleJobs()
+            //loadSampleJobs()
             AppArrayManager.AppArray += savedJobs
         }
         else {
