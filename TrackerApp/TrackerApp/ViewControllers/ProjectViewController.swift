@@ -103,7 +103,7 @@ class ProjectViewController: UIViewController, UITextFieldDelegate, UITextViewDe
                 //Updating previous item
                 AppArrayManager.AppArray[jobIndex!].Projects[projectIndex!].name = project!.name
                 AppArrayManager.AppArray[jobIndex!].Projects[projectIndex!].leader = project!.leader
-                AppArrayManager.AppArray[jobIndex!].Projects[projectIndex!].desc = project!.description
+                AppArrayManager.AppArray[jobIndex!].Projects[projectIndex!].desc = project!.desc
                 AppArrayManager.AppArray[jobIndex!].updateTotalCost()
             }
             let when = DispatchTime.now() + 1

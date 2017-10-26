@@ -21,7 +21,7 @@ class Job: NSObject, NSCoding{
     struct PropertyKey {
         static let name = "jobName"
         static let requestor = "jobRequestor"
-        static let description = "jobDescription"
+        static let desc = "jobDescription"
         static let projects = "jobProjects"
     }
     
@@ -46,7 +46,7 @@ class Job: NSObject, NSCoding{
     func encode(with aCoder: NSCoder) {
         aCoder.encode(name, forKey: PropertyKey.name)
         aCoder.encode(requestor, forKey: PropertyKey.requestor)
-        aCoder.encode(description, forKey: PropertyKey.description)
+        aCoder.encode(desc, forKey: PropertyKey.desc)
         aCoder.encode(Projects, forKey: PropertyKey.projects)
     }
     
@@ -57,7 +57,7 @@ class Job: NSObject, NSCoding{
             return nil
         }
         let requestor = aDecoder.decodeObject(forKey: PropertyKey.requestor) as? String
-        let description = aDecoder.decodeObject(forKey: PropertyKey.description) as? String
+        let description = aDecoder.decodeObject(forKey: PropertyKey.desc) as? String
         let projects = aDecoder.decodeObject(forKey: PropertyKey.projects) as? [Project]
 
         // Must call designated initializer.
