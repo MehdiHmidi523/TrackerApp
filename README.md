@@ -1,3 +1,4 @@
+
 # Tracker App
 
 This is an iOS application that is used to keep track of costs of items in a company. Sorted into Jobs and Projects.
@@ -27,3 +28,7 @@ You can remove, edit, and add new jobs, projects, and items.
 3. Open TrackerApp.xcodeproj in Xcode.
 
 4. Build
+
+# Sample Pictures
+
+<img src="https://github.com/lixx2937/TrackerApp/blob/master/Pictures/Tracker1.png" width="100"> <img src="https://github.com/lixx2937/TrackerApp/blob/master/Pictures/Tracker2.png" width="100"> <img src="https://github.com/lixx2937/TrackerApp/blob/master/Pictures/Tracker3.png" width="100"> <img src="https://github.com/lixx2937/TrackerApp/blob/master/Pictures/Tracker4.png" width="100"> <img src="https://github.com/lixx2937/TrackerApp/blob/master/Pictures/Tracker5.png" width="100">
